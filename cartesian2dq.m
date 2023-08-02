@@ -47,7 +47,7 @@ if nargin == 2
     if m == n && m == 3
         % the input is a DCM
         g = z;
-        q = DCM2q(b);
+        q = dcm2q(b);
     else
         % the input is a quaternion
         g = n;
@@ -90,7 +90,7 @@ else
     if m == n && m == 3
         % the input is a DCM
         g = z;
-        q = DCM2q(b);
+        q = dcm2q(b);
     else
         % the input is a quaternion
         g = n;
